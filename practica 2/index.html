@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body class="bg-sky-200 text-stone-800 min-h-screen" >
+    <header class="bg-amber-400">
+        <div class="max-w-2xl mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">hola</h1>
+            <nav>
+                <a href="" class="px-4 py-2 hover:bg-blue-500 rounded">inicio</a>
+                <a href="" class="px-4 py-2 hover:bg-blue-500 rounded">sobre mi</a>
+                <a href="" class="px-4 py-2 hover:bg-blue-500 rounded">contactos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="py-12 bg-white min-h-[400px] flex items-center">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text 4xl font-semibold mb-4"> bienvenido a mi pagina</h2>
+            <p class="text-lg mb-6">este es un ejemplo de como usar tailwind css</p>
+            <a href="#" class="inline-block bg-blue-500 text-white py-2 px-6 rounded-full hover:bg-blue-700">aprender mas</a>
+        </div>
+
+    </section>
+    <section class="py-12 bg-gray-200 min-h-[400px]">
+        <div class="max-w-3xl mx-auto text-center">
+            <h3 class="font-semibold text-gray-800 mb-6">formulario de contacto</h3>
+            <form action="get">
+                <input type="text" placeholder="Nomber" class="w-full p-3 rounded-lg border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 mb-6">
+
+                <input type="text" placeholder="correo" class="w-full p-3 rounded-lg border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 mb-6">
+
+                <textarea name="descripcion" id="#" class="w-full p-3 rounded-lg border border-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+
+                <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">enviar</button>
+            </form>
+
+        </div>
+
+    </section>
+</body>
+</html>
